@@ -5,7 +5,7 @@ using ToDoList.Models;
 
 namespace ToDoList.Controllers
 {
-    public class CatgoriesController : Controller
+    public class CategoriesController : Controller
     {
         [HttpGet("/categories")]
         public ActionResult Index()

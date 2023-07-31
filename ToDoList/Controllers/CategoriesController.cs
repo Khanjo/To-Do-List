@@ -38,7 +38,7 @@ namespace ToDoList.Controllers
 
         public ActionResult Details(int id)
         {
-            Category thisCategory = _db.Categories.Include(category => category.Items).FirstOrDefault(category => category.CategoryId == id);
+            Category thisCategory = _db.Categories.Include(category => category.Items).ThenInclude(item => item.JoinEntities).ThenInclude(join => join.Tag).FirstOrDefault(category => category.CategoryId == id);
             ViewBag.PageTitle = "Category Details";
             return View(thisCategory);
         }

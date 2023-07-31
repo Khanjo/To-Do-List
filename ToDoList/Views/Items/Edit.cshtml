@@ -18,6 +18,9 @@
     @Html.LabelFor(model => model.Category)
     @Html.DropDownList("CategoryId")
 
+    @Html.LabelFor(model => model.Completed)
+    @Html.CheckBoxFor(model => model.Completed)
+
     <input type="submit" value="Save" />
 }
 @Html.ActionLink("Back to List", "Index")

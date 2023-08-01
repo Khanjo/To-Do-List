@@ -22,6 +22,7 @@ h1 {
 
 h2 {
     text-align: center;
+    font-weight: 1000;
     margin: 50px;
     padding-top: 30px;
     background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
@@ -46,6 +47,7 @@ div#footer {
     color: antiquewhite;
     background: #161616;
     padding: 8px;
+    text-align: center;
     font-size: large;
     font-weight: 500;
 }
@@ -58,6 +60,7 @@ div#header {
     color: antiquewhite;
     background: #161616;
     padding: 8px;
+    text-align: center;
     font-size: large;
     font-weight: 500;
 }
@@ -68,8 +71,9 @@ div#margin {
     right: 0px;
     width: 10%;
     height: 90%;
-    padding: 40px;
+    padding: 15px;
+    padding-top: 30px;
     color: antiquewhite;
     background: #161616;
-    font-size: x-large;
+    font-size: 10pt;
 }

@@ -26,8 +26,10 @@ div#footer {
     left: 0px;
     width: 100%;
     color: antiquewhite;
-    background: #333;
+    background: #161616;
     padding: 8px;
+    font-size: large;
+    font-weight: 500;
 }
 
 div#header {
@@ -36,8 +38,10 @@ div#header {
     left: 0px;
     width: 100%;
     color: antiquewhite;
-    background: #333;
+    background: #161616;
     padding: 8px;
+    font-size: large;
+    font-weight: 500;
 }
 
 div#margin {
@@ -48,6 +52,6 @@ div#margin {
     height: 90%;
     padding: 40px;
     color: antiquewhite;
-    background: #333;
+    background: #161616;
     font-size: x-large;
 }
